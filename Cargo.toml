@@ -1,5 +1,5 @@
 [package]
-name = "ch10-wordcount-package"
+name = "wordcount"
 version = "0.1.0"
 authors = ["Toshiyuki Ihara <toshiyuki.ihara@noin.tv>"]
 edition = "2018"

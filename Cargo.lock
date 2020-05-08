@@ -9,13 +9,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ch10-wordcount-package"
-version = "0.1.0"
-dependencies = [
- "regex 1.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -47,6 +40,13 @@ version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "lazy_static 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "wordcount"
+version = "0.1.0"
+dependencies = [
+ "regex 1.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [metadata]
