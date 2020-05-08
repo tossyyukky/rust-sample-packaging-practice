@@ -19,7 +19,7 @@ fn main() {
     let reader = BufReader::new(&file);
 
     // 3. ファイルから1行ずつ読み込む
-    let freqs = count(reader);
+    let freqs = count(reader, Default::default());
     println!("{:?}", freqs);
 
 }
